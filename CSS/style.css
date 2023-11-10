@@ -223,5 +223,31 @@ nav ul a:hover {
 
 .other-bckgrnd {
     background-color: rgb(28, 74, 134);
-    container: 20px;
+    container: 20px 20px;
+    max-width: 500px;
+    margin: auto;
+    }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h4 {
+        font-size: 105%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h3 {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .trump-cake {
+        font-size: 60%;
+    }
 }
