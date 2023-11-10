@@ -21,7 +21,9 @@ body {
 
 .feature {
     display: flex;
-
+    display: grid;
+    grid-template-columns: 1/3 2/3 3/3;
+    column-span: 2;
 }
 
 .feature .pg-padding {
@@ -40,6 +42,19 @@ h1 {
 
 h2 {
     font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 7px;
+    font-family: "Gochi Hand", cursive;
+}
+
+h3 {
+    font-size: 12px;
+    font-family: "Gochi Hand", cursive; 
+}
+
+h4 {
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     padding: 10px 7px;
@@ -135,7 +150,7 @@ h2 {
 .btn-1 {
     color: rgb(252, 247, 247);
     text-decoration: none;
-    background: red;
+    background: rgb(134, 28, 28);
     padding: 8px 8px;
     display: inline-block;
     border-radius: 5px;
@@ -148,7 +163,7 @@ h2 {
 .btn-2 {
     color: rgb(252, 247, 247);
     text-decoration: none;
-    background: rgb(0, 26, 255);
+    background: rgb(28, 74, 134);
     padding: 8px 8px;
     display: inline-block;
     border-radius: 5px;
@@ -199,8 +214,14 @@ nav ul a:hover {
 
 .btn-1:hover {
     background: rgb(0, 255, 34);
+    padding: 15px 15px;
 }
 
 .btn-2:hover {
     background: rgb(0, 255, 34);
+    padding: 15px 15px;
+}
+
+.other-bckgrnd {
+    background-color: rgb(28, 74, 134);
 }
